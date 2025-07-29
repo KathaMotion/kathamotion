@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <meta name="description" content=" ">
+  <meta name="keywords" content="html, css, javascript, jquery">
+  <meta name="author" content="">
+
+  <link rel="stylesheet" href="css/vendor/icomoon/style.css">
+  <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/vendor/aos.css">
+  <link rel="stylesheet" href="css/vendor/animate.min.css">
+  <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
+
+  <!-- Theme Style -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
+
+  <nav class="unslate_co--site-mobile-menu">
+    <div class="close-wrap d-flex">
+      <a href="#" class="d-flex ml-auto js-menu-toggle">
+        <span class="close-label">Close</span>
+        <div class="close-times">
+          <span class="bar1"></span>
+          <span class="bar2"></span>
+        </div>
+      </a>
+    </div>
+    <div class="site-mobile-inner"></div>
+  </nav>
+
+  <div class="unslate_co--site-wrap">
+      <div class="container">
+        <div class="portfolio-single-wrap unslate_co--section" id="portfolio-single-section">
+
+          <div class="portfolio-single-inner">
+            <h2 class="heading-portfolio-single-h2">Flipbook 3x3"</h2>
+              <div class="col-12 mb-5">
+           <img id="mainImage" class="main-image" src="images/work_2_b_full.jpg" alt="Main Product Image">
+            <div class="gallery">
+              <figure class="mb-4">
+          <img src="images/work_2_b_full.jpg" alt="Image" class="img-fluid" onclick="changeMainImage(this)">
+        </figure>
+        <figure class="mb-4">
+          <img src="images/work_2_full.jpg" alt="Image" class="img-fluid" onclick="changeMainImage(this)">
+        </figure>
+        <figure class="mb-4">
+          <img src="images/work_2_a_full.jpg" alt="Image" class="img-fluid" onclick="changeMainImage(this)">
+        </figure>
+        <figure class="mb-4">
+          <img src="images/work_2_full.jpg" alt="Image" class="img-fluid" onclick="changeMainImage(this)">
+        </figure>
+            </div>
+              <div class="col-12 mb-5">
+                <div class="row">
+                  <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="detail-v1">
+                      <span class="detail-label">Size</span>
+                      <span class="detail-val">3 x 3 inch</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="detail-v1">
+                      <span class="detail-label">No. of Pages</span>
+                      <span class="detail-val"><a>48</a></span>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="detail-v1">
+                      <span class="detail-label">Client</span>
+                      <span class="detail-val">unslate</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="detail-v1">
+                      <span class="detail-label">Visit</span>
+                      <span class="detail-val"><a href="#">https:///</a></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 pr-md-8">
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+              </div>
+                </div>
+              </div>
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+  <!-- Loader -->
+  <div id="unslate_co--overlayer"></div>
+  <div class="site-loader-wrap">
+    <div class="site-loader"></div>
+  </div>
+
+  <script src="js/scripts-dist.js"></script>
+  <script src="js/main.js"></script>\
+  <script>
+    function changeMainImage(thumb) {
+      const mainImage = document.getElementById('mainImage');
+      mainImage.src = thumb.src;
+    }
+  </script>
+
+</body>
+
+</html>
