@@ -459,15 +459,6 @@ var portfolioItemClick = function() {
 
 	});
 
-			function loadPortfolioSinglePage(id, href) {
-		// Only load the inside part of the page (not full page)
-		$('#portfolio-single-holder').load(href + ' #portfolio-single-section > *', function() {
-			// Fade in animation or any callback after loading
-			TweenMax.to('.loader-portfolio-wrap', 1, { top: '-100%', autoAlpha: 0, display: 'none', ease: Power4.easeOut });
-		});
-}
-
-
 	// Close
 	$('body').on('click', '.js-close-portfolio', function() {
 
